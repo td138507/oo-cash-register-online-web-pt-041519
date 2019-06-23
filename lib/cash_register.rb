@@ -1,4 +1,4 @@
-class CashReg 
+class CashReg
   attr_accessor :discount, :total, :items, :last_item
 
   def initialize(discount = 0)
@@ -8,7 +8,7 @@ class CashReg
   end
 
   def apply_discount
-    if @discount == 0 
+    if @discount == 0
       "There is no discount to apply."
     else
       num = self.discount.to_f / 100
@@ -31,6 +31,3 @@ class CashReg
   end
 
 end
-
-    
-    

@@ -1,7 +1,9 @@
 require 'pry'
-class CashRegister
-  attr_accessor :total, :discount, :items, :last_item
 
+
+class CashRegister
+
+  attr_accessor :total, :discount, :items, :last_item
 
    def initialize(discount = 0)
     @total = 0
